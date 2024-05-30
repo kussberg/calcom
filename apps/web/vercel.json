@@ -6,11 +6,7 @@
     },
     {
       "path": "/api/tasks/cron",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/tasks/cleanup",
-      "schedule": "0 0 * * *"
+      "schedule": "0 6 * * *"
     }
   ],
   "functions": {
