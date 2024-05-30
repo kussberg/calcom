@@ -9,11 +9,11 @@ const calFont = fetch(new URL("../../../../public/fonts/cal.ttf", import.meta.ur
   res.arrayBuffer()
 );
 
-const interFont = fetch(new URL("../../../../public/fonts/Inter-Regular.ttf", import.meta.url)).then((res) =>
-  res.arrayBuffer()
+const interFont = fetch(new URL("../../../../public/fonts/Inter-Regular.woff2", import.meta.url)).then(
+  (res) => res.arrayBuffer()
 );
 
-const interFontMedium = fetch(new URL("../../../../public/fonts/Inter-Medium.ttf", import.meta.url)).then(
+const interFontMedium = fetch(new URL("../../../../public/fonts/Inter-Medium.woff2", import.meta.url)).then(
   (res) => res.arrayBuffer()
 );
 
