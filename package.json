@@ -1,5 +1,6 @@
 {
   "name": "calcom-monorepo",
+  "description": "Kussberg CalCom Deployment",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
