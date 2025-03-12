@@ -19,16 +19,16 @@
   ],
   "functions": {
     "pages/api/trpc/highPerf/[trpc].ts": {
-      "memory": 3008
+      "memory": 1024
     },
     "pages/api/trpc/appRoutingForms/[trpc].ts": {
-      "memory": 2048
+      "memory": 1024
     },
     "pages/router/embed.tsx": {
-      "memory": 2048
+      "memory": 1024
     },
     "pages/api/book/event.ts": {
-      "memory": 2048
+      "memory": 1024
     }
   }
 }
