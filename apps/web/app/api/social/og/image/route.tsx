@@ -14,7 +14,21 @@ const interFontMedium = fetch(new URL("/fonts/Inter-Medium.ttf", WEBAPP_URL)).th
   res.arrayBuffer()
 );
 
+<<<<<<< HEAD:apps/web/app/api/social/og/image/route.tsx
 export const runtime = "edge";
+=======
+const interFont = fetch(new URL("../../../../public/fonts/Inter-Regular.woff2", import.meta.url)).then(
+  (res) => res.arrayBuffer()
+);
+
+const interFontMedium = fetch(new URL("../../../../public/fonts/Inter-Medium.woff2", import.meta.url)).then(
+  (res) => res.arrayBuffer()
+);
+
+export const config = {
+  runtime: "edge",
+};
+>>>>>>> b13c94503e30a1e5dcd0c8aec3ac382f5cf93c60:apps/web/pages/api/social/og/image.tsx
 
 const meetingSchema = z.object({
   imageType: z.literal("meeting"),
