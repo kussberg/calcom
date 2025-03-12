@@ -1,20 +1,12 @@
 {
   "crons": [
     {
-      "path": "/api/tasks/cleanup",
-      "schedule": "0 0 * * *"
-    },
-    {
       "path": "/api/cron/calendar-cache-cleanup",
       "schedule": "0 5 * * *"
     },
     {
       "path": "/api/tasks/cron",
       "schedule": "0 10 * * *"
-    },
-    {
-      "path": "/api/calendar-cache/cron",
-      "schedule": "0 15 * * *"
     }
   ],
   "functions": {
