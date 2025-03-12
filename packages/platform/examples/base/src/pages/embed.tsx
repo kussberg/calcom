@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function Embed(props: { calUsername: string; calEmail: string }) {
   return (

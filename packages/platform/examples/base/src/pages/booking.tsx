@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import { Booker, useEventTypes, useTeamEventTypes, useTeams } from "@calcom/atoms";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function Bookings(props: { calUsername: string; calEmail: string }) {
   const [bookingTitle, setBookingTitle] = useState<string | null>(null);

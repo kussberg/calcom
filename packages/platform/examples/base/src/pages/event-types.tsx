@@ -12,7 +12,7 @@ import {
   CreateEventType,
 } from "@calcom/atoms";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function Bookings(props: { calUsername: string; calEmail: string }) {
   const [eventTypeId, setEventTypeId] = useState<number | null>(null);

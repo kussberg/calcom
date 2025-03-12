@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { useBookings } from "@calcom/atoms";
 import dayjs from "@calcom/dayjs";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function Bookings(props: { calUsername: string; calEmail: string }) {
   const { isLoading: isLoadingUpcomingBookings, data: upcomingBookings } = useBookings({

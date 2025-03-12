@@ -7,7 +7,7 @@ import { useBooking, useCancelBooking } from "@calcom/atoms";
 import dayjs from "@calcom/dayjs";
 import { Icon } from "@calcom/ui";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function Bookings(props: { calUsername: string; calEmail: string }) {
   const router = useRouter();

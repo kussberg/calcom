@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 
 import { ConferencingAppsSettings } from "@calcom/atoms";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function ConferencingApps(props: { calUsername: string; calEmail: string }) {
   const pathname = usePathname();

@@ -3,7 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 
 import { Connect, StripeConnect } from "@calcom/atoms";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "800"] });
 
 export default function Home(props: { calUsername: string; calEmail: string }) {

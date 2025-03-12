@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 import { PaymentForm } from "@calcom/atoms";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 
 export default function Payment(props: { calUsername: string; calEmail: string }) {
   const pathname = usePathname();
