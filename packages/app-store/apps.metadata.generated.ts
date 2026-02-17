@@ -34,6 +34,7 @@ import fathom_config_json from "./fathom/config.json";
 import { metadata as feishucalendar__metadata_ts } from "./feishucalendar/_metadata";
 import ga4_config_json from "./ga4/config.json";
 import { metadata as giphy__metadata_ts } from "./giphy/_metadata";
+import github_config_json from "./github/config.json";
 import { metadata as googlecalendar__metadata_ts } from "./googlecalendar/_metadata";
 import { metadata as googlevideo__metadata_ts } from "./googlevideo/_metadata";
 import granola_config_json from "./granola/config.json";
@@ -140,6 +141,7 @@ export const appStoreMetadata = {
   feishucalendar: feishucalendar__metadata_ts,
   ga4: ga4_config_json,
   giphy: giphy__metadata_ts,
+  github: github_config_json,
   googlecalendar: googlecalendar__metadata_ts,
   googlevideo: googlevideo__metadata_ts,
   granola: granola_config_json,

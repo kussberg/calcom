@@ -1,0 +1,18 @@
+{
+  "/*": "Don't modify slug - If required, do it using cli edit command",
+  "name": "GitHub",
+  "title": "GitHub",
+  "slug": "github",
+  "type": "github_crm",
+  "logo": "icon.svg",
+  "url": "https://github.com",
+  "variant": "crm",
+  "categories": ["crm"],
+  "publisher": "Cal.com, Inc.",
+  "extendsFeature": "EventType",
+  "email": "help@cal.com",
+  "description": "Create GitHub issues automatically when events are booked. Connect your repositories and track meetings as issues.",
+  "__createdUsingCli": true,
+  "isOAuth": true,
+  "dirName": "github"
+}

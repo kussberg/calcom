@@ -26,6 +26,7 @@ export const EventTypeAddonMap = {
   fathom: dynamic(() => import("./fathom/components/EventTypeAppCardInterface")),
   ga4: dynamic(() => import("./ga4/components/EventTypeAppCardInterface")),
   giphy: dynamic(() => import("./giphy/components/EventTypeAppCardInterface")),
+  github: dynamic(() => import("./github/components/EventTypeAppCardInterface")),
   gtm: dynamic(() => import("./gtm/components/EventTypeAppCardInterface")),
   hitpay: dynamic(() => import("./hitpay/components/EventTypeAppCardInterface")),
   hubspot: dynamic(() => import("./hubspot/components/EventTypeAppCardInterface")),

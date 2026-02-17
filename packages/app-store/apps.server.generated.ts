@@ -34,6 +34,7 @@ export const apiHandlers = {
   feishucalendar: import("./feishucalendar/api"),
   ga4: import("./ga4/api"),
   giphy: import("./giphy/api"),
+  github: import("./github/api"),
   googlecalendar: import("./googlecalendar/api"),
   googlevideo: import("./googlevideo/api"),
   granola: import("./granola/api"),
